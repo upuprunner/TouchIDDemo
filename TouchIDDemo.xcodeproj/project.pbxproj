@@ -13,6 +13,8 @@
 		B9DE502A1D178F1800825AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DE50281D178F1800825AF1 /* Main.storyboard */; };
 		B9DE502C1D178F1800825AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DE502B1D178F1800825AF1 /* Assets.xcassets */; };
 		B9DE502F1D178F1800825AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DE502D1D178F1800825AF1 /* LaunchScreen.storyboard */; };
+		B9DE50371D178F6300825AF1 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DE50361D178F6300825AF1 /* LocalAuthentication.framework */; };
+		B9DE503A1D17905500825AF1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE50391D17905500825AF1 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		B9DE502B1D178F1800825AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9DE502E1D178F1800825AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9DE50301D178F1800825AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9DE50361D178F6300825AF1 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		B9DE50381D17905500825AF1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B9DE50391D17905500825AF1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DE50371D178F6300825AF1 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,7 @@
 		B9DE50131D178F1800825AF1 = {
 			isa = PBXGroup;
 			children = (
+				B9DE50361D178F6300825AF1 /* LocalAuthentication.framework */,
 				B9DE501E1D178F1800825AF1 /* TouchIDDemo */,
 				B9DE501D1D178F1800825AF1 /* Products */,
 			);
@@ -58,6 +65,8 @@
 		B9DE501E1D178F1800825AF1 /* TouchIDDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B9DE50381D17905500825AF1 /* MainViewController.h */,
+				B9DE50391D17905500825AF1 /* MainViewController.m */,
 				B9DE50221D178F1800825AF1 /* AppDelegate.h */,
 				B9DE50231D178F1800825AF1 /* AppDelegate.m */,
 				B9DE50251D178F1800825AF1 /* ViewController.h */,
@@ -152,6 +161,7 @@
 				B9DE50271D178F1800825AF1 /* ViewController.m in Sources */,
 				B9DE50241D178F1800825AF1 /* AppDelegate.m in Sources */,
 				B9DE50211D178F1800825AF1 /* main.m in Sources */,
+				B9DE503A1D17905500825AF1 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
